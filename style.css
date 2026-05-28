@@ -1,0 +1,340 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+}
+
+header{
+    background:#0c8f5d;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.logo{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+
+logo-section{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+
+
+.slogan{
+    font-size:14px;
+    color:white;
+    margin-top:5px;
+}
+
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:yellow;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:50px;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h2{
+    font-size:40px;
+    margin-bottom:20px;
+    color:#0c8f5d;
+}
+
+.hero-text p{
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#0c8f5d;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.hero-image{
+    flex:1;
+}
+
+.hero-image img{
+    width:100%;
+    border-radius:10px;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:40px;
+    flex-wrap:wrap;
+}
+
+.feature-box{
+    background:white;
+    padding:30px;
+    width:300px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.feature-box i{
+    font-size:40px;
+    color:#0c8f5d;
+    margin-bottom:15px;
+}
+
+.payment-section{
+    padding:40px;
+    text-align:center;
+}
+
+.payments{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+.page-banner{
+    background:#0c8f5d;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.about-section{
+    display:flex;
+    gap:30px;
+    padding:40px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.about-text{
+    line-height:1.8;
+}
+
+.about-text,
+.about-image{
+    flex:1;
+}
+
+.about-image img{
+    width:100%;
+    border-radius:10px;
+}
+
+.team-section{
+    padding:50px;
+    text-align:center;
+}
+
+.team-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.team-card{
+    background:white;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+}
+
+.team-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.services-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:50px;
+    flex-wrap:wrap;
+}
+
+.service-card{
+    background:white;
+    width:300px;
+    padding:30px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.service-card i{
+    font-size:40px;
+    color:#0c8f5d;
+    margin-bottom:20px;
+}
+
+.video-section{
+    text-align:center;
+    padding:40px;
+}
+
+video{
+    width:80%;
+    border-radius:10px;
+}
+
+.contact-container{
+    display:flex;
+    gap:40px;
+    padding:50px;
+    flex-wrap:wrap;
+}
+
+.contact-form,
+.map-section{
+    flex:1;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input,
+select,
+textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#0c8f5d;
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#066943;
+}
+
+footer{
+    background:#222;
+    color:white;
+    padding:40px;
+    margin-top:40px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.footer-box{
+   flex:1;
+    min-width:250px;
+    margin-bottom:20px;
+}
+
+.social-icons{
+    display:flex;
+    gap:15px;
+    margin-top:15px;
+}
+
+.social-icons a{
+    color:white;
+    font-size:24px;
+}
+
+
+
+   .copyright{
+    text-align:center;
+    margin-top:40px;
+    padding-top:20px;
+    border-top:1px solid #555;
+
+}
+
+@media(max-width:768px){
+
+    header{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    nav ul{
+        justify-content:center;
+        margin-top:15px;
+    }
+
+    .hero{
+        padding:20px;
+    }
+
+    .hero-text h2{
+        font-size:30px;
+    }
+
+    video{
+        width:100%;
+    }
+
+    .footer-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .social-icons{
+        justify-content:center;
+    }
+}
